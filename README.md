@@ -10,13 +10,13 @@ I then built the process to capture, store and apply the input value as a date f
 
 Lastly, I coupled those processes to run using the click button or enter key to refresh the page results. 
 
-Two areas I found challenging were tying the hitting "enter" to the "form" section of the page (I set <form id="form">). Secondly, the data table wasn't refreshing on enter or click despite the criteria being stored. I solved this by removing the previous table results prior to applying the new ones (d3.selectAll("td").remove().   
+Two areas I found challenging were tying the hitting "enter" to the "form" section of the page (I set form id="form"). Secondly, the data table wasn't refreshing on "enter" or "click" despite the criteria being stored. I solved this by removing the previous table results prior to applying the new ones (d3.selectAll("td").remove().   
 
-The bonus section really came down to just copying the date function four times over to add the other criteria options. I did some labeling to make it apparent what each of the options were and included valid place holders for each to guide the user on input options. 
+The bonus section really came down to just copying the date input/filter four times over to add the other criteria options. I did some labeling to make it apparent what each of the options were and included valid place holders for each to guide the user on input options. 
 
 I did not have time to incorporate dropdown filters which would have facilitated easier and more accurate filtering. 
 
-The most challenging aspect of the Bonus problem for me was getting multiple criteria to fuction together. I used the && (and) feature to combine the 5 criteria and used ".includes" instead of "===" to allow the criteria to behave as if a SQL "Like" filter was being deployed. If a user leaves 1 or more inputs blank, they're effectively ignored. If all the inputs are blank, all the records will be returned as not filtering was applied. 
+The most challenging aspect of the Bonus problem for me was getting multiple criteria to fuction together. I used the && (And) feature to combine the 5 criteria and used ".includes" instead of "===" to allow the criteria to behave as if a SQL "Like" filter was being deployed. If a user leaves 1 or more inputs blank, they're effectively ignored. If all the inputs are blank, all the records will be returned as if not filtering was applied. 
 
 One thing that stopped working when multiple criteria were added was the updata on "enter" feature. I don't know why and I have posted the question to the class. The click button feature to filter works just fine. 
 
