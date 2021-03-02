@@ -16,9 +16,9 @@ The bonus section really came down to just copying the date input/filter four ti
 
 I did not have time to incorporate dropdown filters which would have facilitated easier and more accurate filtering. 
 
-The most challenging aspect of the Bonus problem for me was getting multiple criteria to fuction together. I used the && (And) feature to combine the 5 criteria and used ".includes" instead of "===" to allow the criteria to behave as if a SQL "Like" filter was being deployed. If a user leaves 1 or more inputs blank, they're effectively ignored. If all the inputs are blank, all the records will be returned as if not filtering was applied. 
+The most challenging aspect of the Bonus problem for me was getting multiple criteria to fuction together. I used the && (And) feature to combine the 5 criteria and used ".includes" instead of "===" to allow the criteria to behave as if a SQL "Like" filter was being deployed. If a user leaves 1 or more inputs blank, they're effectively ignored. If all the inputs are blank, all the records will be returned as if no filtering was applied. 
 
-One thing that stopped working when multiple criteria were added was the updata on "enter" feature. I don't know why and I have posted the question to the class. The click button feature to filter works just fine. 
+One thing that stopped working when multiple criteria were added was the update on "enter" feature. I don't know why and I have posted the question to the class. The click button feature to filter works just fine. 
 
 This was a fun assignment as most things worked within 5 or ten attemps (except the enter function on multiple criteria). The topic was entertaining as well. 
 
